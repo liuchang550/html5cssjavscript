@@ -1,0 +1,15 @@
+/*Head first programming chapter4构造函数*/
+<script>
+    function Dog(name, breed,weight){
+        this.name = name;
+        this.breed = breed;
+        this.weight = weight;
+        this.bark = function(){
+            if(this.weight > 25){
+                alert(this.name + " say wolf!");
+            }else {
+                alert(this.name + " say Yip!");
+            }
+        }
+    }
+</script>
